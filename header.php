@@ -20,13 +20,11 @@
 
 		<link rel="profile" href="https://gmpg.org/xfn/11">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	    <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/assets/css/cssanimation.min.css">
-		<?php wp_head(); ?>
+	  	<?php wp_head(); ?>
 
 	</head>
 
 	<body <?php body_class(); ?>>
-       <script type="text/javascript" src="<?php echo get_template_directory_uri();?>/assets/css/letteranimation.js"></script>
        
 		<?php
 		wp_body_open();
@@ -251,15 +249,15 @@ IT-Centre это
 		</div>
 	</div>
 	
-<div class="card mx-auto" style="width:550px; height:170px; bottom:-100px; border-radius:5px;text-align:center">
+<div class="card mx-auto" style="width:550px; height:150px; bottom:-70px; border-radius:15px;text-align:center">
 <div class="card-body">	
-	<div>
+	<div class="mt-3">
 <span style="text-align:center">За пределами стереотипов, развивайтесь вместе с нами</span>
 </div>
-<div>	
+<div class="mt-3">	
 <span>оставить заявку</span>
 </div>
-<div>
+<div class="mt-4">
 	<button type="button" class="btn btn-danger"> Попробовать 14 дней бесплатно.</button>
 </div>	
 </div>
